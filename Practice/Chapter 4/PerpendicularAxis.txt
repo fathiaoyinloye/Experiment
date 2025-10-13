@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class PerpendicularAxis{
+	public static void main(String[] args){
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("Enter x1 of first point: ");
+		int x1 = scanner.nextInt();
+
+		System.out.print("Enter y1 of first point: ");
+		int y1 = scanner.nextInt();
+
+		System.out.print("Enter x2 of first point: ");
+		int x2 = scanner.nextInt();
+		
+		System.out.print("Enter y2 of first point: ");
+		int y2 = scanner.nextInt();
+
+		if(x1 == x2){
+			System.out.println("Line is perpendicular to x axis");
+		}	
+		if(y1 == y2){
+			System.out.println("Line is perpendicular to y axis");
+		}
+		if(x1 != x2 && y1 != y2){
+			System.out.println("Line is not perpendicular")
+		]
+
+	}
+}

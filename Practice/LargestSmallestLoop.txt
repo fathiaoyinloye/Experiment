@@ -1,0 +1,34 @@
+System.out.println(name.charAt(count));
+import java.util.Scanner;
+
+public class LargeSmallestLoop{
+	public static void main(String[] args){
+	
+		Scanner scanner = new Scanner(System.in);
+		int number = 0;
+		int largest = 0;
+		int smallest = 0;
+		String name = "abdulmalik";
+
+		for(int count = 0; count < 10; count++){
+			/* System.out.print("Enter a number: ");
+			number = scanner.nextInt();
+			if(count == 0){
+				largest = number;
+				smallest = number;
+			}
+			if (number > largest){
+				largest = number;
+			}
+			if( number < smallest){
+				smallest = number;
+			}					*/
+			
+			
+		}
+		//System.out.println("The largest number is: " + largest);
+
+		//System.out.println("The smallest number is: " + smallest);
+
+	}
+}
